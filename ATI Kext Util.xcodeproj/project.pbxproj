@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F44EFC1937342900972C24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F44EFB1937342900972C24 /* Cocoa.framework */; };
+		D0F44F061937342900972C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F041937342900972C24 /* InfoPlist.strings */; };
+		D0F44F081937342900972C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F44F071937342900972C24 /* main.m */; };
+		D0F44F0C1937342900972C24 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F0A1937342900972C24 /* Credits.rtf */; };
+		D0F44F0F1937342900972C24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F44F0E1937342900972C24 /* AppDelegate.m */; };
+		D0F44F121937342900972C24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F101937342900972C24 /* MainMenu.xib */; };
+		D0F44F141937342900972C24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F131937342900972C24 /* Images.xcassets */; };
+		D0F44F1B1937342A00972C24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F44F1A1937342A00972C24 /* XCTest.framework */; };
+		D0F44F1C1937342A00972C24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F44EFB1937342900972C24 /* Cocoa.framework */; };
+		D0F44F241937342A00972C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F221937342A00972C24 /* InfoPlist.strings */; };
+		D0F44F261937342A00972C24 /* ATI_Kext_UtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F44F251937342A00972C24 /* ATI_Kext_UtilTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F44F1D1937342A00972C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F44EF01937342900972C24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F44EF71937342900972C24;
+			remoteInfo = "ATI Kext Util";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F44EF81937342900972C24 /* ATI Kext Util.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATI Kext Util.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F44EFB1937342900972C24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0F44EFE1937342900972C24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0F44EFF1937342900972C24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0F44F001937342900972C24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0F44F031937342900972C24 /* ATI Kext Util-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATI Kext Util-Info.plist"; sourceTree = "<group>"; };
+		D0F44F051937342900972C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F44F071937342900972C24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F44F091937342900972C24 /* ATI Kext Util-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATI Kext Util-Prefix.pch"; sourceTree = "<group>"; };
+		D0F44F0B1937342900972C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D0F44F0D1937342900972C24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F44F0E1937342900972C24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F44F111937342900972C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0F44F131937342900972C24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0F44F191937342A00972C24 /* ATI Kext UtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATI Kext UtilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F44F1A1937342A00972C24 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0F44F211937342A00972C24 /* ATI Kext UtilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATI Kext UtilTests-Info.plist"; sourceTree = "<group>"; };
+		D0F44F231937342A00972C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F44F251937342A00972C24 /* ATI_Kext_UtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATI_Kext_UtilTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F44EF51937342900972C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F44EFC1937342900972C24 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F44F161937342A00972C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F44F1C1937342A00972C24 /* Cocoa.framework in Frameworks */,
+				D0F44F1B1937342A00972C24 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F44EEF1937342900972C24 = {
+			isa = PBXGroup;
+			children = (
+				D0F44F011937342900972C24 /* ATI Kext Util */,
+				D0F44F1F1937342A00972C24 /* ATI Kext UtilTests */,
+				D0F44EFA1937342900972C24 /* Frameworks */,
+				D0F44EF91937342900972C24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F44EF91937342900972C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44EF81937342900972C24 /* ATI Kext Util.app */,
+				D0F44F191937342A00972C24 /* ATI Kext UtilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F44EFA1937342900972C24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44EFB1937342900972C24 /* Cocoa.framework */,
+				D0F44F1A1937342A00972C24 /* XCTest.framework */,
+				D0F44EFD1937342900972C24 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0F44EFD1937342900972C24 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44EFE1937342900972C24 /* AppKit.framework */,
+				D0F44EFF1937342900972C24 /* CoreData.framework */,
+				D0F44F001937342900972C24 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0F44F011937342900972C24 /* ATI Kext Util */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44F0D1937342900972C24 /* AppDelegate.h */,
+				D0F44F0E1937342900972C24 /* AppDelegate.m */,
+				D0F44F101937342900972C24 /* MainMenu.xib */,
+				D0F44F131937342900972C24 /* Images.xcassets */,
+				D0F44F021937342900972C24 /* Supporting Files */,
+			);
+			path = "ATI Kext Util";
+			sourceTree = "<group>";
+		};
+		D0F44F021937342900972C24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44F031937342900972C24 /* ATI Kext Util-Info.plist */,
+				D0F44F041937342900972C24 /* InfoPlist.strings */,
+				D0F44F071937342900972C24 /* main.m */,
+				D0F44F091937342900972C24 /* ATI Kext Util-Prefix.pch */,
+				D0F44F0A1937342900972C24 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F44F1F1937342A00972C24 /* ATI Kext UtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44F251937342A00972C24 /* ATI_Kext_UtilTests.m */,
+				D0F44F201937342A00972C24 /* Supporting Files */,
+			);
+			path = "ATI Kext UtilTests";
+			sourceTree = "<group>";
+		};
+		D0F44F201937342A00972C24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44F211937342A00972C24 /* ATI Kext UtilTests-Info.plist */,
+				D0F44F221937342A00972C24 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F44EF71937342900972C24 /* ATI Kext Util */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F44F291937342A00972C24 /* Build configuration list for PBXNativeTarget "ATI Kext Util" */;
+			buildPhases = (
+				D0F44EF41937342900972C24 /* Sources */,
+				D0F44EF51937342900972C24 /* Frameworks */,
+				D0F44EF61937342900972C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATI Kext Util";
+			productName = "ATI Kext Util";
+			productReference = D0F44EF81937342900972C24 /* ATI Kext Util.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F44F181937342A00972C24 /* ATI Kext UtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F44F2C1937342A00972C24 /* Build configuration list for PBXNativeTarget "ATI Kext UtilTests" */;
+			buildPhases = (
+				D0F44F151937342A00972C24 /* Sources */,
+				D0F44F161937342A00972C24 /* Frameworks */,
+				D0F44F171937342A00972C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F44F1E1937342A00972C24 /* PBXTargetDependency */,
+			);
+			name = "ATI Kext UtilTests";
+			productName = "ATI Kext UtilTests";
+			productReference = D0F44F191937342A00972C24 /* ATI Kext UtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F44EF01937342900972C24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					D0F44F181937342A00972C24 = {
+						TestTargetID = D0F44EF71937342900972C24;
+					};
+				};
+			};
+			buildConfigurationList = D0F44EF31937342900972C24 /* Build configuration list for PBXProject "ATI Kext Util" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F44EEF1937342900972C24;
+			productRefGroup = D0F44EF91937342900972C24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F44EF71937342900972C24 /* ATI Kext Util */,
+				D0F44F181937342A00972C24 /* ATI Kext UtilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F44EF61937342900972C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F44F061937342900972C24 /* InfoPlist.strings in Resources */,
+				D0F44F141937342900972C24 /* Images.xcassets in Resources */,
+				D0F44F0C1937342900972C24 /* Credits.rtf in Resources */,
+				D0F44F121937342900972C24 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F44F171937342A00972C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F44F241937342A00972C24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F44EF41937342900972C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F44F0F1937342900972C24 /* AppDelegate.m in Sources */,
+				D0F44F081937342900972C24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F44F151937342A00972C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F44F261937342A00972C24 /* ATI_Kext_UtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F44F1E1937342A00972C24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F44EF71937342900972C24 /* ATI Kext Util */;
+			targetProxy = D0F44F1D1937342A00972C24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F44F041937342900972C24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F44F051937342900972C24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0F44F0A1937342900972C24 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F44F0B1937342900972C24 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D0F44F101937342900972C24 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F44F111937342900972C24 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D0F44F221937342A00972C24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F44F231937342A00972C24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F44F271937342A00972C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0F44F281937342A00972C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0F44F2A1937342A00972C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATI Kext Util/ATI Kext Util-Prefix.pch";
+				INFOPLIST_FILE = "ATI Kext Util/ATI Kext Util-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0F44F2B1937342A00972C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATI Kext Util/ATI Kext Util-Prefix.pch";
+				INFOPLIST_FILE = "ATI Kext Util/ATI Kext Util-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0F44F2D1937342A00972C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATI Kext Util.app/Contents/MacOS/ATI Kext Util";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATI Kext Util/ATI Kext Util-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ATI Kext UtilTests/ATI Kext UtilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0F44F2E1937342A00972C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATI Kext Util.app/Contents/MacOS/ATI Kext Util";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATI Kext Util/ATI Kext Util-Prefix.pch";
+				INFOPLIST_FILE = "ATI Kext UtilTests/ATI Kext UtilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F44EF31937342900972C24 /* Build configuration list for PBXProject "ATI Kext Util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F44F271937342A00972C24 /* Debug */,
+				D0F44F281937342A00972C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F44F291937342A00972C24 /* Build configuration list for PBXNativeTarget "ATI Kext Util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F44F2A1937342A00972C24 /* Debug */,
+				D0F44F2B1937342A00972C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0F44F2C1937342A00972C24 /* Build configuration list for PBXNativeTarget "ATI Kext UtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F44F2D1937342A00972C24 /* Debug */,
+				D0F44F2E1937342A00972C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F44EF01937342900972C24 /* Project object */;
+}
