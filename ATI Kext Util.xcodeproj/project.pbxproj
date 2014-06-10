@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01028CA194060BF00BCF4B2 /* StringFormatTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D01028C9194060BF00BCF4B2 /* StringFormatTransformer.m */; };
+		D01028CD19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D01028CC19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.m */; };
+		D01028D01940851800BCF4B2 /* ValueToPresetTransformer2.m in Sources */ = {isa = PBXBuildFile; fileRef = D01028CF1940851800BCF4B2 /* ValueToPresetTransformer2.m */; };
+		D0591D921941D39B0051FCF9 /* PresetWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0591D911941D39B0051FCF9 /* PresetWindow.xib */; };
+		D082D39A193CB92D00CBF511 /* ATError.m in Sources */ = {isa = PBXBuildFile; fileRef = D082D399193CB92D00CBF511 /* ATError.m */; };
+		D082D39C193CC95400CBF511 /* DocumentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D082D39B193CC95400CBF511 /* DocumentWindow.xib */; };
+		D082D3AA193CE87900CBF511 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = D082D3A9193CE87900CBF511 /* Document.m */; };
+		D082D3F5193DC7C200CBF511 /* PathToFileTypeIconTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D082D3F4193DC7C200CBF511 /* PathToFileTypeIconTransformer.m */; };
+		D082D3F8193DD0D400CBF511 /* StringExploderTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D082D3F7193DD0D400CBF511 /* StringExploderTransformer.m */; };
+		D082D3FB193DE24200CBF511 /* BoolToIconTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D082D3FA193DE24200CBF511 /* BoolToIconTransformer.m */; };
+		D082D3FF193DED7C00CBF511 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = D082D3FE193DED7C00CBF511 /* Driver.m */; };
+		D096FF331947073B00B37E51 /* HighlightableTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D096FF321947073B00B37E51 /* HighlightableTextFieldCell.m */; };
+		D09EB2E4194053CD006AAEFC /* Connector2.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EB2E3194053CD006AAEFC /* Connector2.m */; };
+		D0A404AB193F4644006E1F39 /* ValueToPresetTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A404AA193F4644006E1F39 /* ValueToPresetTransformer.m */; };
+		D0A404AD193F5A16006E1F39 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A404AC193F5A16006E1F39 /* PreferencesWindow.xib */; };
+		D0A404B0193F6A3F006E1F39 /* ati-personality.pl in Resources */ = {isa = PBXBuildFile; fileRef = D0A404AF193F6A3F006E1F39 /* ati-personality.pl */; };
+		D0B1168D1937804A00C7FBE3 /* ConnectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B1168B1937804A00C7FBE3 /* ConnectorWindowController.m */; };
+		D0B1168E1937804A00C7FBE3 /* ConnectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B1168C1937804A00C7FBE3 /* ConnectorWindow.xib */; };
+		D0B11691193782E100C7FBE3 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B11690193782E100C7FBE3 /* MainWindowController.m */; };
+		D0B116EA1937C50700C7FBE3 /* ConnectorPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B116E91937C50700C7FBE3 /* ConnectorPreset.m */; };
+		D0CB2E1A1938769500CA1612 /* NumberToHexTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB2E191938769500CA1612 /* NumberToHexTransformer.m */; };
+		D0CB2E1E1938AE4400CA1612 /* Personality.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB2E1D1938AE4400CA1612 /* Personality.m */; };
+		D0CB2E251938AF4800CA1612 /* Kext.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB2E241938AF4800CA1612 /* Kext.m */; };
+		D0DFC2DF1942F79400F92B3A /* radeon_bios_decode.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DFC2DC1942F79400F92B3A /* radeon_bios_decode.m */; };
+		D0DFC2E11942F81000F92B3A /* README in Resources */ = {isa = PBXBuildFile; fileRef = D0DFC2E01942F81000F92B3A /* README */; };
+		D0DFC2E4194310F900F92B3A /* RadeonBios.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DFC2E3194310F900F92B3A /* RadeonBios.m */; };
+		D0DFC2E7194311EC00F92B3A /* RadeonBiosConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DFC2E6194311EC00F92B3A /* RadeonBiosConnector.m */; };
+		D0DFC2EA1943182C00F92B3A /* RadeonBiosError.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DFC2E91943182C00F92B3A /* RadeonBiosError.m */; };
 		D0F44EFC1937342900972C24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F44EFB1937342900972C24 /* Cocoa.framework */; };
 		D0F44F061937342900972C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F041937342900972C24 /* InfoPlist.strings */; };
 		D0F44F081937342900972C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F44F071937342900972C24 /* main.m */; };
@@ -18,6 +46,7 @@
 		D0F44F1C1937342A00972C24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F44EFB1937342900972C24 /* Cocoa.framework */; };
 		D0F44F241937342A00972C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F44F221937342A00972C24 /* InfoPlist.strings */; };
 		D0F44F261937342A00972C24 /* ATI_Kext_UtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F44F251937342A00972C24 /* ATI_Kext_UtilTests.m */; };
+		D0F44F3519373AE000972C24 /* ConnectorPresets.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F44F3419373AE000972C24 /* ConnectorPresets.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +60,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01028C8194060BF00BCF4B2 /* StringFormatTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringFormatTransformer.h; sourceTree = "<group>"; };
+		D01028C9194060BF00BCF4B2 /* StringFormatTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringFormatTransformer.m; sourceTree = "<group>"; };
+		D01028CB19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSArrayFormatExtension.h"; sourceTree = "<group>"; };
+		D01028CC19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSArrayFormatExtension.m"; sourceTree = "<group>"; };
+		D01028CE1940851800BCF4B2 /* ValueToPresetTransformer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueToPresetTransformer2.h; sourceTree = "<group>"; };
+		D01028CF1940851800BCF4B2 /* ValueToPresetTransformer2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueToPresetTransformer2.m; sourceTree = "<group>"; };
+		D0591D911941D39B0051FCF9 /* PresetWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresetWindow.xib; sourceTree = "<group>"; };
+		D082D398193CB92D00CBF511 /* ATError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATError.h; sourceTree = "<group>"; };
+		D082D399193CB92D00CBF511 /* ATError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATError.m; sourceTree = "<group>"; };
+		D082D39B193CC95400CBF511 /* DocumentWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentWindow.xib; sourceTree = "<group>"; };
+		D082D3A8193CE87900CBF511 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		D082D3A9193CE87900CBF511 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		D082D3F3193DC7C200CBF511 /* PathToFileTypeIconTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathToFileTypeIconTransformer.h; sourceTree = "<group>"; };
+		D082D3F4193DC7C200CBF511 /* PathToFileTypeIconTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathToFileTypeIconTransformer.m; sourceTree = "<group>"; };
+		D082D3F6193DD0D400CBF511 /* StringExploderTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringExploderTransformer.h; sourceTree = "<group>"; };
+		D082D3F7193DD0D400CBF511 /* StringExploderTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringExploderTransformer.m; sourceTree = "<group>"; };
+		D082D3F9193DE24200CBF511 /* BoolToIconTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoolToIconTransformer.h; sourceTree = "<group>"; };
+		D082D3FA193DE24200CBF511 /* BoolToIconTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoolToIconTransformer.m; sourceTree = "<group>"; };
+		D082D3FD193DED7C00CBF511 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		D082D3FE193DED7C00CBF511 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		D096FF311947073B00B37E51 /* HighlightableTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightableTextFieldCell.h; sourceTree = "<group>"; };
+		D096FF321947073B00B37E51 /* HighlightableTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightableTextFieldCell.m; sourceTree = "<group>"; };
+		D09EB2E2194053CD006AAEFC /* Connector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector2.h; sourceTree = "<group>"; };
+		D09EB2E3194053CD006AAEFC /* Connector2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector2.m; sourceTree = "<group>"; };
+		D0A404A9193F4644006E1F39 /* ValueToPresetTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueToPresetTransformer.h; sourceTree = "<group>"; };
+		D0A404AA193F4644006E1F39 /* ValueToPresetTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueToPresetTransformer.m; sourceTree = "<group>"; };
+		D0A404AC193F5A16006E1F39 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		D0A404AF193F6A3F006E1F39 /* ati-personality.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = "ati-personality.pl"; sourceTree = "<group>"; };
+		D0B1168A1937804A00C7FBE3 /* ConnectorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectorWindowController.h; sourceTree = "<group>"; };
+		D0B1168B1937804A00C7FBE3 /* ConnectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectorWindowController.m; sourceTree = "<group>"; };
+		D0B1168C1937804A00C7FBE3 /* ConnectorWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectorWindow.xib; sourceTree = "<group>"; };
+		D0B1168F193782E100C7FBE3 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		D0B11690193782E100C7FBE3 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		D0B116E61937C46D00C7FBE3 /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
+		D0B116E81937C50700C7FBE3 /* ConnectorPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectorPreset.h; sourceTree = "<group>"; };
+		D0B116E91937C50700C7FBE3 /* ConnectorPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectorPreset.m; sourceTree = "<group>"; };
+		D0CB2E181938769500CA1612 /* NumberToHexTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberToHexTransformer.h; sourceTree = "<group>"; };
+		D0CB2E191938769500CA1612 /* NumberToHexTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberToHexTransformer.m; sourceTree = "<group>"; };
+		D0CB2E1C1938AE4400CA1612 /* Personality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personality.h; sourceTree = "<group>"; };
+		D0CB2E1D1938AE4400CA1612 /* Personality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personality.m; sourceTree = "<group>"; };
+		D0CB2E231938AF4800CA1612 /* Kext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kext.h; sourceTree = "<group>"; };
+		D0CB2E241938AF4800CA1612 /* Kext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kext.m; sourceTree = "<group>"; };
+		D0DFC2DB1942F79400F92B3A /* atombios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atombios.h; sourceTree = "<group>"; };
+		D0DFC2DC1942F79400F92B3A /* radeon_bios_decode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = radeon_bios_decode.m; sourceTree = "<group>"; };
+		D0DFC2DD1942F79400F92B3A /* radeon_bios_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radeon_bios_decode.h; sourceTree = "<group>"; };
+		D0DFC2DE1942F79400F92B3A /* radeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radeon.h; sourceTree = "<group>"; };
+		D0DFC2E01942F81000F92B3A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D0DFC2E2194310F900F92B3A /* RadeonBios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadeonBios.h; sourceTree = "<group>"; };
+		D0DFC2E3194310F900F92B3A /* RadeonBios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadeonBios.m; sourceTree = "<group>"; };
+		D0DFC2E5194311EC00F92B3A /* RadeonBiosConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadeonBiosConnector.h; sourceTree = "<group>"; };
+		D0DFC2E6194311EC00F92B3A /* RadeonBiosConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadeonBiosConnector.m; sourceTree = "<group>"; };
+		D0DFC2E81943182C00F92B3A /* RadeonBiosError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadeonBiosError.h; sourceTree = "<group>"; };
+		D0DFC2E91943182C00F92B3A /* RadeonBiosError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadeonBiosError.m; sourceTree = "<group>"; };
 		D0F44EF81937342900972C24 /* ATI Kext Util.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATI Kext Util.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F44EFB1937342900972C24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D0F44EFE1937342900972C24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +132,8 @@
 		D0F44F211937342A00972C24 /* ATI Kext UtilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATI Kext UtilTests-Info.plist"; sourceTree = "<group>"; };
 		D0F44F231937342A00972C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0F44F251937342A00972C24 /* ATI_Kext_UtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATI_Kext_UtilTests.m; sourceTree = "<group>"; };
+		D0F44F3319373AE000972C24 /* ConnectorPresets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectorPresets.h; sourceTree = "<group>"; };
+		D0F44F3419373AE000972C24 /* ConnectorPresets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectorPresets.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +157,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D082D3A0193CCBF200CBF511 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D0F44F101937342900972C24 /* MainMenu.xib */,
+				D0B1168F193782E100C7FBE3 /* MainWindowController.h */,
+				D0B11690193782E100C7FBE3 /* MainWindowController.m */,
+				D0A404AC193F5A16006E1F39 /* PreferencesWindow.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D082D3FC193DE24700CBF511 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D0CB2E181938769500CA1612 /* NumberToHexTransformer.h */,
+				D0CB2E191938769500CA1612 /* NumberToHexTransformer.m */,
+				D082D3F3193DC7C200CBF511 /* PathToFileTypeIconTransformer.h */,
+				D082D3F4193DC7C200CBF511 /* PathToFileTypeIconTransformer.m */,
+				D082D3F6193DD0D400CBF511 /* StringExploderTransformer.h */,
+				D082D3F7193DD0D400CBF511 /* StringExploderTransformer.m */,
+				D082D3F9193DE24200CBF511 /* BoolToIconTransformer.h */,
+				D082D3FA193DE24200CBF511 /* BoolToIconTransformer.m */,
+				D01028C8194060BF00BCF4B2 /* StringFormatTransformer.h */,
+				D01028C9194060BF00BCF4B2 /* StringFormatTransformer.m */,
+				D01028CB19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.h */,
+				D01028CC19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		D0CB2E1B1938AE1A00CA1612 /* Kext */ = {
+			isa = PBXGroup;
+			children = (
+				D0CB2E231938AF4800CA1612 /* Kext.h */,
+				D0CB2E241938AF4800CA1612 /* Kext.m */,
+				D082D3FD193DED7C00CBF511 /* Driver.h */,
+				D082D3FE193DED7C00CBF511 /* Driver.m */,
+				D0CB2E1C1938AE4400CA1612 /* Personality.h */,
+				D0CB2E1D1938AE4400CA1612 /* Personality.m */,
+				D09EB2E2194053CD006AAEFC /* Connector2.h */,
+				D09EB2E3194053CD006AAEFC /* Connector2.m */,
+				D0B116E81937C50700C7FBE3 /* ConnectorPreset.h */,
+				D0B116E91937C50700C7FBE3 /* ConnectorPreset.m */,
+				D0F44F3319373AE000972C24 /* ConnectorPresets.h */,
+				D0F44F3419373AE000972C24 /* ConnectorPresets.m */,
+			);
+			name = Kext;
+			sourceTree = "<group>";
+		};
+		D0DFC2DA1942F77700F92B3A /* radeon_bios_decode */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFC2DB1942F79400F92B3A /* atombios.h */,
+				D0DFC2DC1942F79400F92B3A /* radeon_bios_decode.m */,
+				D0DFC2DD1942F79400F92B3A /* radeon_bios_decode.h */,
+				D0DFC2DE1942F79400F92B3A /* radeon.h */,
+				D0DFC2E01942F81000F92B3A /* README */,
+				D0DFC2E2194310F900F92B3A /* RadeonBios.h */,
+				D0DFC2E3194310F900F92B3A /* RadeonBios.m */,
+				D0DFC2E5194311EC00F92B3A /* RadeonBiosConnector.h */,
+				D0DFC2E6194311EC00F92B3A /* RadeonBiosConnector.m */,
+				D0DFC2E81943182C00F92B3A /* RadeonBiosError.h */,
+				D0DFC2E91943182C00F92B3A /* RadeonBiosError.m */,
+			);
+			name = radeon_bios_decode;
+			sourceTree = "<group>";
+		};
+		D0F37A4D193E66FB0033BCD6 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				D082D3A8193CE87900CBF511 /* Document.h */,
+				D082D3A9193CE87900CBF511 /* Document.m */,
+				D082D39B193CC95400CBF511 /* DocumentWindow.xib */,
+				D096FF311947073B00B37E51 /* HighlightableTextFieldCell.h */,
+				D096FF321947073B00B37E51 /* HighlightableTextFieldCell.m */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
 		D0F44EEF1937342900972C24 = {
 			isa = PBXGroup;
 			children = (
+				D0B116E61937C46D00C7FBE3 /* CWLSynthesizeSingleton.h */,
+				D0DFC2DA1942F77700F92B3A /* radeon_bios_decode */,
 				D0F44F011937342900972C24 /* ATI Kext Util */,
 				D0F44F1F1937342A00972C24 /* ATI Kext UtilTests */,
 				D0F44EFA1937342900972C24 /* Frameworks */,
@@ -115,11 +280,17 @@
 		D0F44F011937342900972C24 /* ATI Kext Util */ = {
 			isa = PBXGroup;
 			children = (
+				D082D3A0193CCBF200CBF511 /* Main */,
+				D0F37A4D193E66FB0033BCD6 /* Document */,
+				D0F44F2F1937348400972C24 /* Connector */,
+				D0CB2E1B1938AE1A00CA1612 /* Kext */,
 				D0F44F0D1937342900972C24 /* AppDelegate.h */,
 				D0F44F0E1937342900972C24 /* AppDelegate.m */,
-				D0F44F101937342900972C24 /* MainMenu.xib */,
+				D082D398193CB92D00CBF511 /* ATError.h */,
+				D082D399193CB92D00CBF511 /* ATError.m */,
 				D0F44F131937342900972C24 /* Images.xcassets */,
 				D0F44F021937342900972C24 /* Supporting Files */,
+				D082D3FC193DE24700CBF511 /* Misc */,
 			);
 			path = "ATI Kext Util";
 			sourceTree = "<group>";
@@ -131,6 +302,7 @@
 				D0F44F041937342900972C24 /* InfoPlist.strings */,
 				D0F44F071937342900972C24 /* main.m */,
 				D0F44F091937342900972C24 /* ATI Kext Util-Prefix.pch */,
+				D0A404AF193F6A3F006E1F39 /* ati-personality.pl */,
 				D0F44F0A1937342900972C24 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -152,6 +324,21 @@
 				D0F44F221937342A00972C24 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F44F2F1937348400972C24 /* Connector */ = {
+			isa = PBXGroup;
+			children = (
+				D0B1168C1937804A00C7FBE3 /* ConnectorWindow.xib */,
+				D0B1168A1937804A00C7FBE3 /* ConnectorWindowController.h */,
+				D0B1168B1937804A00C7FBE3 /* ConnectorWindowController.m */,
+				D0A404A9193F4644006E1F39 /* ValueToPresetTransformer.h */,
+				D0A404AA193F4644006E1F39 /* ValueToPresetTransformer.m */,
+				D01028CE1940851800BCF4B2 /* ValueToPresetTransformer2.h */,
+				D01028CF1940851800BCF4B2 /* ValueToPresetTransformer2.m */,
+				D0591D911941D39B0051FCF9 /* PresetWindow.xib */,
+			);
+			name = Connector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +417,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DFC2E11942F81000F92B3A /* README in Resources */,
+				D0A404AD193F5A16006E1F39 /* PreferencesWindow.xib in Resources */,
 				D0F44F061937342900972C24 /* InfoPlist.strings in Resources */,
+				D082D39C193CC95400CBF511 /* DocumentWindow.xib in Resources */,
 				D0F44F141937342900972C24 /* Images.xcassets in Resources */,
 				D0F44F0C1937342900972C24 /* Credits.rtf in Resources */,
 				D0F44F121937342900972C24 /* MainMenu.xib in Resources */,
+				D0591D921941D39B0051FCF9 /* PresetWindow.xib in Resources */,
+				D0A404B0193F6A3F006E1F39 /* ati-personality.pl in Resources */,
+				D0B1168E1937804A00C7FBE3 /* ConnectorWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +446,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F44F0F1937342900972C24 /* AppDelegate.m in Sources */,
+				D096FF331947073B00B37E51 /* HighlightableTextFieldCell.m in Sources */,
+				D09EB2E4194053CD006AAEFC /* Connector2.m in Sources */,
+				D0B116EA1937C50700C7FBE3 /* ConnectorPreset.m in Sources */,
+				D0B1168D1937804A00C7FBE3 /* ConnectorWindowController.m in Sources */,
+				D0DFC2EA1943182C00F92B3A /* RadeonBiosError.m in Sources */,
+				D0A404AB193F4644006E1F39 /* ValueToPresetTransformer.m in Sources */,
+				D01028CA194060BF00BCF4B2 /* StringFormatTransformer.m in Sources */,
+				D0B11691193782E100C7FBE3 /* MainWindowController.m in Sources */,
+				D082D3F5193DC7C200CBF511 /* PathToFileTypeIconTransformer.m in Sources */,
+				D0DFC2E7194311EC00F92B3A /* RadeonBiosConnector.m in Sources */,
+				D0CB2E251938AF4800CA1612 /* Kext.m in Sources */,
+				D0F44F3519373AE000972C24 /* ConnectorPresets.m in Sources */,
+				D082D39A193CB92D00CBF511 /* ATError.m in Sources */,
+				D01028D01940851800BCF4B2 /* ValueToPresetTransformer2.m in Sources */,
+				D082D3FF193DED7C00CBF511 /* Driver.m in Sources */,
+				D082D3AA193CE87900CBF511 /* Document.m in Sources */,
+				D0CB2E1E1938AE4400CA1612 /* Personality.m in Sources */,
+				D01028CD19406AAE00BCF4B2 /* NSString+NSArrayFormatExtension.m in Sources */,
+				D082D3F8193DD0D400CBF511 /* StringExploderTransformer.m in Sources */,
+				D082D3FB193DE24200CBF511 /* BoolToIconTransformer.m in Sources */,
 				D0F44F081937342900972C24 /* main.m in Sources */,
+				D0DFC2DF1942F79400F92B3A /* radeon_bios_decode.m in Sources */,
+				D0CB2E1A1938769500CA1612 /* NumberToHexTransformer.m in Sources */,
+				D0DFC2E4194310F900F92B3A /* RadeonBios.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +682,7 @@
 				D0F44F2B1937342A00972C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F44F2C1937342A00972C24 /* Build configuration list for PBXNativeTarget "ATI Kext UtilTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +691,7 @@
 				D0F44F2E1937342A00972C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

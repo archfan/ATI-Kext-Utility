@@ -1,10 +1,4 @@
-//
-//  ATI_Kext_UtilTests.m
-//  ATI Kext UtilTests
-//
-//  Created by Peter Haßler on 29.05.14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
-//
+
 
 #import <XCTest/XCTest.h>
 
