@@ -27,7 +27,7 @@
     [super windowControllerDidLoadNib:aController];
     
     // Add any code here that needs to be executed once the windowController has loaded the document's window.
-    [_tableView bind:@"highlightedValues" toObject:self withKeyPath:@"self.vbios.ioPciMatch" options:nil];
+    //[_tableView bind:@"highlightedValues" toObject:self withKeyPath:@"self.vbios.ioPciMatch" options:nil];
 }
 
 
