@@ -1,4 +1,8 @@
-Part from Makefile:
-#
-# Copyright (C) 2011-2012 B.C. <bcc24x7@gmail.com>
-#
+Kext Yutil is a Mac OS X AMD/ATI kext editor.
+
+The underlying technology is forked from ATI Kext Util.
+
+License
+=======
+Kext Util is distributed under the terms of the GNU General Public License,
+version 2 or later. See the COPYING file for details.
