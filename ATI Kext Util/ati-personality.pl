@@ -106,7 +106,7 @@ sub parse_instr
 	if ($arch eq "i386") {
 #As of 10.7 the compiler is optimizing the code a bit better, and now we
 #always should look at a movl instruction for the load address
-	    if ($osxvers >= "10.7") {
+	    if ($osxvers >= "10.10") {
 		$loadop = "movl.+,%edx\$";
 	    } else {
 		$loadop = "addl";
@@ -114,7 +114,7 @@ sub parse_instr
 	    $countop = "movb.+0x03\\(%e";
 	} else {
 	    $loadop = "leaq";
-	    if ($osxvers >= "10.9") {
+	    if ($osxvers >= "10.10") {
 		$countop = "mov[bw].+0x01\\(%r";
 	    } else {
 		$countop = "movb.+0x03\\(%rsi";
@@ -150,7 +150,7 @@ sub parse_instr
 	} else {
 	    $storeinst = $loadaddr[-1];
 	}
-	if ($osxvers >= "10.7") {
+	if ($osxvers >= "10.10") {
 # XXX wormy case is still special - uses leal instruction
 	    if (!$storeinst) {
 		$storeinst = $leal[-1];
@@ -259,7 +259,7 @@ sub main()
 	$arch = "x86_64";
     }
 
-    if ($osxvers >= "10.7") {
+    if ($osxvers >= "10.10") {
 	$allkext = 1;
     }
 
